@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22f47ed2-c2d7-4496-b741-57f4a8096627">
+  <name>ТМЦиСклады</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТМЦ и склады</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.СкладыТМЦ</content>
+  <content>Catalog.НоменклатураТМЦ</content>
+  <content>Catalog.Сотрудники</content>
+  <content>Document.ПоступлениеТМЦ</content>
+  <content>Document.ПеремещениеТМЦ</content>
+  <content>Document.РасходТМЦ</content>
+  <content>Enum.ЕдиницыИзмерения</content>
+  <content>Report.ОтчетПоТоварамНаСкладах</content>
+  <content>AccumulationRegister.ТоварыНаСкладах</content>
+</mdclass:Subsystem>

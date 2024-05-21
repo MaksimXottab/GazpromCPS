@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0702e552-4b1c-48b0-bb36-018882081457">
+  <producedTypes>
+    <objectType typeId="5bf9e702-aebc-4cbc-8b21-2ef3d38b574d" valueTypeId="9fa0d6eb-8ac3-46bf-9ba0-0ec2c7d53f63"/>
+    <refType typeId="8908f550-cd6e-4259-8292-242d0d7c3f28" valueTypeId="e7caa486-b125-4313-914e-bdb590d80fe1"/>
+    <selectionType typeId="89f3beeb-e57c-4196-b48b-7777206b8221" valueTypeId="6a853f55-98b7-49e6-8694-241d36d341cc"/>
+    <listType typeId="be6768a1-778c-4e25-adeb-4743c7f61eec" valueTypeId="6a840026-a36f-4441-a9d9-1576db5dcae5"/>
+    <managerType typeId="b056f313-0ec5-495a-a9b9-0892dedcadab" valueTypeId="7a8d09be-a4c7-43cd-aec3-1f2e91848933"/>
+  </producedTypes>
+  <name>Берега</name>
+  <synonym>
+    <key>ru</key>
+    <value>Берега</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Берега.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Берега.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ea4a284-8305-4387-b697-dfd3173cc5df">
+  <producedTypes>
+    <objectType typeId="d8392cee-44e2-40b9-a655-529839d0d730" valueTypeId="d974312d-d998-4902-9063-4fce9173ff86"/>
+    <refType typeId="58600216-3475-4ab5-8dfc-791a6e837cf0" valueTypeId="2bc13e5b-dd62-4219-88f2-7e4d437bdebb"/>
+    <selectionType typeId="9ade6720-6f45-4a62-950b-d824dde0e603" valueTypeId="ab34cc10-aad6-4323-a189-62a2e9dc2f11"/>
+    <listType typeId="f998794b-95e2-4e31-90a1-3db0ece6553e" valueTypeId="8d293d20-4550-45b6-9d6d-8745fb08f084"/>
+    <managerType typeId="d065abd4-7c8f-4179-abe2-f93450a4c91b" valueTypeId="05cc1a19-90d2-49ac-9fa2-add8b30a0fc4"/>
+  </producedTypes>
+  <name>Перемещение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перемещение</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Перемещение.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ОбъектыНаБерегах</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="ff0870d7-1242-4e4b-a15c-5f560a703973">
+    <name>Пассажир</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пассажир</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пассажиры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="def89677-74b0-47a3-bad4-03da847ad99a">
+    <name>БерегОт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Берег от</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Берега</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2085e6ec-579d-47d7-a74d-8c67d0168598">
+    <name>БерегДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Берег до</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Берега</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

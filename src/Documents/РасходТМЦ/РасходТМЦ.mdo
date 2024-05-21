@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d81d407f-a178-4667-9dfe-08df59c2f141">
+  <producedTypes>
+    <objectType typeId="4d97ae97-b953-4656-9b97-4ea6317123ea" valueTypeId="8cacda07-5a81-42c6-972f-bd19f569bf34"/>
+    <refType typeId="a5b44db6-e95e-46bd-86f7-9f2f3d51ad75" valueTypeId="8af04b01-9c7f-4d52-9971-5b56aee15cfb"/>
+    <selectionType typeId="550873cd-1473-4a31-816b-b49367968457" valueTypeId="bc926b2a-0ca9-4eeb-9af7-343d4c133d96"/>
+    <listType typeId="b2d7dd18-c1ec-4910-ba52-2ec7112607a0" valueTypeId="d20a3510-5736-4ca4-9d92-64297866eb76"/>
+    <managerType typeId="105c85ab-5c7e-4d97-89c0-0e8ab99ee666" valueTypeId="c2b626a7-3f0a-49e2-b59f-3c487cdafdd9"/>
+  </producedTypes>
+  <name>РасходТМЦ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расход ТМЦ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РасходТМЦ.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ТоварыНаСкладах</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="1a906c6d-1577-473a-9483-6200f5db93e0">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СкладыТМЦ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b13c334a-9f7a-4a5b-ac61-121013f008db">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="5fbb9ac4-e29a-4086-9560-2cb1c8b53f07">
+    <producedTypes>
+      <objectType typeId="9810fbce-03fe-46c9-ae59-b80c714fef15" valueTypeId="12cfed39-ecb9-449f-8201-cf14f7474742"/>
+      <rowType typeId="9c7eab3e-f23a-4495-8953-a3969a66aa92" valueTypeId="3ca1d36b-1f60-4960-8f2e-f5fa491f2772"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="2fa04793-5468-4bc8-bc5e-5e3589067d66">
+      <name>Товар</name>
+      <synonym>
+        <key>ru</key>
+        <value>Товар</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.НоменклатураТМЦ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ebebf724-b86e-4c98-9e7b-fbbbd8b916c0">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="907fb02a-b109-411f-8e84-b34b409976fd">
+      <name>ЕдиницаИзмерения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Единица измерения</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ЕдиницыИзмерения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2005c312-f5ea-42d2-afd8-680b44f604ca">
+      <name>Пояснение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пояснение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

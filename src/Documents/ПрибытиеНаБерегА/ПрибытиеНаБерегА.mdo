@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="330710d4-1202-4952-8688-95447c4ac0a3">
+  <producedTypes>
+    <objectType typeId="4a78769f-f5f5-4032-9ede-132890da1fbb" valueTypeId="0df75d65-1eb6-4d80-b027-8b667af18598"/>
+    <refType typeId="89ac4309-9a8e-405f-854a-1e712ee88a57" valueTypeId="34a329ca-df8e-4c86-9bce-d91fbacfbfaf"/>
+    <selectionType typeId="1d47a5fd-8b05-444c-bfce-d1db85c18607" valueTypeId="7da3034a-e466-4223-9bf3-9061074b1750"/>
+    <listType typeId="f0f502dd-7130-4433-b388-a394c5946584" valueTypeId="e9a1a255-855d-4d3f-8436-26c7167c1c73"/>
+    <managerType typeId="58713487-73ad-4f9b-b20a-66ecff3eea77" valueTypeId="fb2d567b-597d-457d-8424-bc76655a65ab"/>
+  </producedTypes>
+  <name>ПрибытиеНаБерегА</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прибытие на берег А</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПрибытиеНаБерегА.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ОбъектыНаБерегах</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="7c77c6aa-1f85-4b1d-bd56-e85f9729b940">
+    <name>Берег</name>
+    <synonym>
+      <key>ru</key>
+      <value>Берег</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Берега</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="d0d07c87-56b3-482c-8cc6-a0bc35af7ea8">
+    <producedTypes>
+      <objectType typeId="1b6b95eb-528c-427b-9ca6-b20d32df8b7a" valueTypeId="d1002485-0f55-4c0f-8325-882d190f636e"/>
+      <rowType typeId="656262c0-b5a9-4341-9557-9664a6561e3b" valueTypeId="7e8885bf-5ad2-45e7-8425-63ce60c9c7cd"/>
+    </producedTypes>
+    <name>СписокПассажиров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список пассажиров</value>
+    </synonym>
+    <attributes uuid="d6767f59-bc3e-497a-a694-eccbc9678f7d">
+      <name>Пассажир</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пассажир</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пассажиры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

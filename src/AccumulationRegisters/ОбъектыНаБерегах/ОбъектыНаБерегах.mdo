@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c5a99aa-051f-4e65-a532-08cfd1fbf3c1">
+  <producedTypes>
+    <selectionType typeId="1f068f4d-346b-4589-b873-14b8b25c8c3b" valueTypeId="09710dfc-bf9c-46f2-9590-61d19024d227"/>
+    <listType typeId="2b941ce1-2855-4554-a225-cc18958759e0" valueTypeId="dc3a6ead-9d67-41a7-868b-f59099975352"/>
+    <managerType typeId="fbc0b6b8-4990-4ada-b262-40ac9a81a4f2" valueTypeId="c90d052c-b808-42c4-bad5-f026666aee0b"/>
+    <recordSetType typeId="f7fb5ddb-e7b5-457c-9b00-6c2e63140710" valueTypeId="14c3a54e-b4a1-4c99-8422-3ba733a7c1dc"/>
+    <recordKeyType typeId="ab6e34e7-ffc2-4a0c-badb-64553e4c0032" valueTypeId="46713b60-638c-4c91-b7ee-c7092f5b2c21"/>
+    <recordType typeId="0e57a4f5-02c8-4314-a02d-d3ec05567cdd" valueTypeId="87eb4dfe-f8b7-4643-a5ae-06119c20a614"/>
+  </producedTypes>
+  <name>ОбъектыНаБерегах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты на берегах</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="b237c7ba-1a3d-4be9-9725-44b497f5aeb3">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="50cfb62b-998a-46d5-a5d6-85e2f43b5e12">
+    <name>Пассажир</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пассажир</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пассажиры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="2e1213b1-e89f-4ab8-9d9e-8829c2dccf09">
+    <name>Берег</name>
+    <synonym>
+      <key>ru</key>
+      <value>Берег</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Берега</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

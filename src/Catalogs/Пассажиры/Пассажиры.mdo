@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f362ae48-bc54-4442-aa97-31413c864e7e">
+  <producedTypes>
+    <objectType typeId="fd9c87cf-d409-4e59-b2c6-1f9dea7a7f2f" valueTypeId="ebac4aa0-baa7-4f35-8284-abe82cf38836"/>
+    <refType typeId="2eaaef2d-c185-46c4-97a5-4cf85b49871d" valueTypeId="309da840-6ed8-44f9-bc04-ae41fa6872a3"/>
+    <selectionType typeId="197aa1bf-6a19-4092-a34b-d7a83a5aed17" valueTypeId="46c45910-a975-4115-b038-318df4f3888e"/>
+    <listType typeId="4a4cf749-deb4-4a32-85ca-393c592ec571" valueTypeId="3dfc7997-caf2-41ae-a53b-26839d907d92"/>
+    <managerType typeId="6c26285a-a833-4960-86e0-fda318b96cff" valueTypeId="1d16fbb8-4703-4faa-b95b-ad55e8497663"/>
+  </producedTypes>
+  <name>Пассажиры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пассажиры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Пассажиры.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Пассажиры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
